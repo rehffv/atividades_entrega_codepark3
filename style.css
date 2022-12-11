@@ -65,6 +65,15 @@ header {
     font-family: 'Libre Baskerville', serif; 
 }
 
+.imagem_conj_arqui {
+    display: table-cell;
+    float:left;
+    width:600px;  
+    height: 100vh;
+    padding: 20px;
+    margin-top: 20px; 
+}
+
 .section_1 {
     display:flex;
 }
@@ -73,9 +82,9 @@ header {
     background-color: #E9ECEF;
     border-radius: 7px;
     width: 1280px;
-    height: 350px;
+    height: 100%;
     padding: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 
 .subtitulo_1 {
@@ -86,16 +95,35 @@ header {
 .imagem_1 {
     display: table-cell;
     float:left;
-    width:600px;    
+    width:600px;
     padding: 20px;
     margin-top: 20px;    
 }
 
 .paragrafo_1 {
-    display: table-cell;
+    display: flex;
     float:right;
     width:600px;    
     padding: 20px;
+    height: 100%;    
+}
+
+.paragrafo_armazem {
+    display: flex;
+    float:right;
+    width:600px;    
+    padding: 20px;
+    height: 100%; 
+    margin-top: 120px;      
+}
+
+.paragrafo_centro {
+    display: flex;
+    float:right;
+    width:600px;    
+    padding: 20px;
+    height: 100%; 
+    margin-top: 30px;   
 }
 
 

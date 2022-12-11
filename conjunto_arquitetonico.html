@@ -4,66 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> 
+    
     <title>Viagens Incríveis</title>
 </head>
-<body>
-    <header>
+<body class="everybody">
+
+    <header class="cabeçalho">
+
         <a href="index.html">
-            <img align=left src="assets_codepark3/logomenor.png" alt= "logo_menor"/>
+            <img width=250px src="assets_codepark3/logo2.png" title="Home" alt= "logo_viagens_incriveis"/>
         </a>
-        <div style="text-align:right">
-            <a target= "_blank" href="em_construcao.html">OUTRAS VIAGENS |</a>
-            <a target= "_blank" href="em_construcao.html">PONTOS TURÍSTICOS</a>
-        </div>
-    </header>
-    <main>
-        <br>
-        <br>
-        <br>
-        <br>   
-        <div style="text-align:center">
-            <h1>Conjunto Arquitetônico Eclético</h1>
-            <img src="assets_codepark3/conjunto_arquitetonico.jpg" alt= "conjunto_arquitetônico"/>
-            <br>
-            <p>
-                A praça e o bairro inteiro, já durante o domínio holandês (1630-1654), passaram por aterros e reformas radicais, com altos e baixos. Uma das mais importantes foi a reforma urbana do início de 1900, que deixou como legado um importante acervo arquitetônico eclético, tombado como patrimônio nacional pelo IPHAN em 1998.
-                Nesse meio tempo o bairro passou por uma lenta deterioração e os antigos palacetes, símbolos da prosperidade recifense, foram aos poucos abandonados ou transformados em cabarés e até mesmo os boêmios renunciaram aos debates intelectuais nos botequins dos arredores.
-                <br>A revitalização do bairro ressuscitou o casario da praça e muitos outros edifícios do bairro e hoje é possível aprecia-los e imaginar a beleza e a suntuosidade desse pedacinho da cidade.
-                <br>Os edifícios  de inspiração eclética, construídos entre 1912 e 1915, que merecem destaque pelo valor histórico e arquitetônico são:
-                <div style="text-align:left">
-                    <ul>
-                        <li>
-                            <strong>Antiga sede do London & River Plate Bank:</strong> Localizado entre as avenidas Alfredo Lisboa, Marquês de Olinda e Rio Branco, é um dos palacetes mais bonitos da cidade (o primeiro da esquerda para a direita).  Passou muito tempo fechado mas hoje sedia a empresa informática In Loco que disponibiliza visitas guiadas (informações no local porque o site não está atualizado).
-                        </li>
-                        <br>
-                        <li>
-                            <strong>Associação Comercial de Pernambuco:</strong> Sede da associação; Abriga importante acervo da memória do comércio pernambucano, como quadros, vitrais e uma coleção de livros e jornais (o segundo da esquerda para a direita). O edifício pode ser visitado mas consulte o site oficial para maiores informações.
-                        </li>
-                        <br>
-                        <li>
-                        </trong>Prédio da Caixa Cultural:</strong> Inaugurado em 2012, a Caixa Cultural abriga várias exposições de artes, assim como oficinas e teatro. Inicialmente projetado como sede do Bank of London & South America Limited, em 1967 foi adquirido pela Bolsa de Valores de Pernambuco (terceiro edifício na foto de abertura).  Hoje sedia a Caixa Cultural de Recife e organiza exposições.
-                        </li>
-                    </ul>
-                </div>
-            </p>
-        </div>
-    </main>
-    <footer>
-        <br>     
-        <br> 
-        <fieldset>
-            <legend>SOBRE O BLOG</legend>
-            <ul>
-                <li>
-                    <a target= "_blank" href="em_construcao.html">Quem Somos</a>
+
+        <div>
+          <nav class="nav_header">
+            <ul class="ul_header">
+                <li class="li_header">
+                    <a class="a_header" target= "_blank" title="Outras Viagens" href="em_construcao.html">OUTRAS VIAGENS</a>
                 </li>
                 <li>
-                    <a target= "_blank" href="em_construcao.html">Política do Blog</a>
+                    <p>|</p>
                 </li>
-                <li>
-                    <a target= "_blank" href="em_construcao.html">Fale Conosco</a>
+                <li class="li_header">
+                    <a class="a_header" target= "_blank" title="Pontos Turísticos" href="em_construcao.html">PONTOS TURÍSTICOS</a>
                 </li>
             </ul>
+          </nav>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="titulo">
+            <h1 class="fonte_titulo">Conjunto Arquitetônico Eclético</h1>                        
+        </div>
+        
+        <section class="section_1">
+            <div class="background_1" style="text-align:center">
+                
+                <div class="imagem_conj_arqui">
+                    <img width=550x src="assets_codepark3/conjunto_arquitetonico.jpg" title="Conjunto Arquitetônico" alt= "conjunto_arquitetônico"/>
+                </div>
+
+                <div style="text-align:center">
+                    <p class="paragrafo_1">                
+                    A praça e o bairro inteiro, já durante o domínio holandês (1630-1654), passaram por aterros e reformas radicais, com altos e baixos. Uma das mais importantes foi a reforma urbana do início de 1900, que deixou como legado um importante acervo arquitetônico eclético, tombado como patrimônio nacional pelo IPHAN em 1998.
+                    Nesse meio tempo o bairro passou por uma lenta deterioração e os antigos palacetes, símbolos da prosperidade recifense, foram aos poucos abandonados ou transformados em cabarés e até mesmo os boêmios renunciaram aos debates intelectuais nos botequins dos arredores.</p>
+                    <p class="paragrafo_1">A revitalização do bairro ressuscitou o casario da praça e muitos outros edifícios do bairro e hoje é possível aprecia-los e imaginar a beleza e a suntuosidade desse pedacinho da cidade.</p>
+                    <p class="paragrafo_1">Os edifícios  de inspiração eclética, construídos entre 1912 e 1915, que merecem destaque pelo valor histórico e arquitetônico são:</p>
+                    <nav class="paragrafo_1">
+                        <ul>
+                            <li>
+                                <strong>Antiga sede do London & River Plate Bank:</strong> Localizado entre as avenidas Alfredo Lisboa, Marquês de Olinda e Rio Branco, é um dos palacetes mais bonitos da cidade (o primeiro da esquerda para a direita).  Passou muito tempo fechado mas hoje sedia a empresa informática In Loco que disponibiliza visitas guiadas (informações no local porque o site não está atualizado).
+                            </li>
+                            <br>
+                            <li>
+                                <strong>Associação Comercial de Pernambuco:</strong> Sede da associação; Abriga importante acervo da memória do comércio pernambucano, como quadros, vitrais e uma coleção de livros e jornais (o segundo da esquerda para a direita). O edifício pode ser visitado mas consulte o site oficial para maiores informações.
+                            </li>
+                            <br>
+                            <li>
+                            </trong>Prédio da Caixa Cultural:</strong> Inaugurado em 2012, a Caixa Cultural abriga várias exposições de artes, assim como oficinas e teatro. Inicialmente projetado como sede do Bank of London & South America Limited, em 1967 foi adquirido pela Bolsa de Valores de Pernambuco (terceiro edifício na foto de abertura).  Hoje sedia a Caixa Cultural de Recife e organiza exposições.
+                            </li>
+                        </ul>
+                    </nav>
+                </div>   
+                
+        </section>
+
+    </main>
+
+    <footer>    
+        <section class="section_footer">
+
+            <div class="box">
+                <h2>Início</h2>
+                <ul >
+                    <li><a target= "_blank" title="Home" href="index.html">Home</a></li>
+                    <li><a target= "_blank" title="Viagens" href="em_construcao.html">Viagens</a></li>
+                    <li><a target= "_blank" title="Pontos Turísticos" href="em_construcao.html">Pontos Turísticos</a></li>
+                    <li><a target= "_blank" title="Mais" href="em_construcao.html">Mais</a></li>
+                </ul>
+            </div>
+           
+            <div class="box">
+                <h2>Destinos</h2>
+                <ul >
+                    <li><a target= "_blank" title="Brasil" href="em_construcao.html">Brasil</a></li>
+                    <li><a target= "_blank" title="Américas" href="em_construcao.html">Américas</a></li>
+                    <li><a target= "_blank" title="Europa" href="em_construcao.html">Europa</a></li>
+                    <li><a target= "_blank" title="Mais" href="em_construcao.html">Mais</a></li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h2>SOBRE O BLOG</h2>
+                <ul>
+                    <li><a target= "_blank" title="Quem Somos" href="em_construcao.html">Quem Somos</a></li>
+                    <li><a target= "_blank" title="Termos de Uso" href="em_construcao.html">Termos de Uso</a></li>
+                    <li><a target= "_blank" title="Política de Privacidade" href="em_construcao.html">Política de Privacidade</a></li>
+                    <li><a target= "_blank" title="Política de Cookies" href="em_construcao.html">Política de Cookies</a></li>
+                </ul>
+            </div>
+
+        </section>
     </footer>
+    <div class="footer">
+
+        
+        <div class="redes_sociais"> 
+
+            <div class="social">
+                <a title="Instagram" target= "_blank" href="em_construcao.html"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="social">
+                <a title="WhatsApp" target= "_blank" href="em_construcao.html"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="social"> 
+                <a title="Twitter" target= "_blank" href="em_construcao.html"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>

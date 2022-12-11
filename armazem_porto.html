@@ -4,49 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> 
+    
     <title>Viagens Incríveis</title>
 </head>
-<body>
-    <header>
+<body class="everybody">
+
+    <header class="cabeçalho">
+
         <a href="index.html">
-            <img align=left src="assets_codepark3/logomenor.png" alt= "logo_menor"/>
+            <img width=250px src="assets_codepark3/logo2.png" title="Home" alt= "logo_viagens_incriveis"/>
         </a>
-        <div style="text-align:right">
-            <a target= "_blank" href="em_construcao.html">OUTRAS VIAGENS |</a>
-            <a target= "_blank" href="em_construcao.html">PONTOS TURÍSTICOS</a>
-        </div>
-    </header>
-    <main>
-        <br>
-        <br>
-        <br>
-        <br>   
-        <div style="text-align:center">
-            <h1>Armazém do Porto</h1>
-            <img src="assets_codepark3/armazem_porto.jpg" alt= "armazém_porto"/>
-            <br>
-            <p>
-                Do lado direito da praça encontra-se os Armazéns do Porto! Um espaço de entretenimento e gastronomia, com várias opções de bares e uma vista excelente onde recifenses e turistas jogam papo fora nos fins de tarde e à noite.
-                <br>Vamos dar a dica de três desses restaurantes que você não pode deixar de ir e provar algumas comidinhas com sabor do nordeste: <strong>Café São Braz, Frisabor e Seu Boteco.</strong>
-            </p>
-        </div>
-    </main>
-    <footer>
-        <br>     
-        <br> 
-        <fieldset>
-            <legend>SOBRE O BLOG</legend>
-            <ul>
-                <li>
-                    <a target= "_blank" href="em_construcao.html">Quem Somos</a>
+
+        <div>
+          <nav class="nav_header">
+            <ul class="ul_header">
+                <li class="li_header">
+                    <a class="a_header" target= "_blank" title="Outras Viagens" href="em_construcao.html">OUTRAS VIAGENS</a>
                 </li>
                 <li>
-                    <a target= "_blank" href="em_construcao.html">Política do Blog</a>
+                    <p>|</p>
                 </li>
-                <li>
-                    <a target= "_blank" href="em_construcao.html">Fale Conosco</a>
+                <li class="li_header">
+                    <a class="a_header" target= "_blank" title="Pontos Turísticos" href="em_construcao.html">PONTOS TURÍSTICOS</a>
                 </li>
             </ul>
+          </nav>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="titulo">
+            <h1 class="fonte_titulo">Armazém do Porto</h1>                        
+        </div>
+        
+        <section class="section_1">
+            <div class="background_1" style="text-align:center">
+                
+                <div class="imagem_1">
+                    <img width=550px src="assets_codepark3/armazem_porto.jpg" title="Armazém do Porto" alt= "armazém_porto"/>
+                </div>
+
+                <div style="text-align:center">
+                    <p class="paragrafo_armazem">                
+                        Do lado direito da praça encontra-se os Armazéns do Porto! Um espaço de entretenimento e gastronomia, com várias opções de bares e uma vista excelente onde recifenses e turistas jogam papo fora nos fins de tarde e à noite.</p>
+                        <p>Vamos dar a dica de três desses restaurantes que você não pode deixar de ir e provar algumas comidinhas com sabor do nordeste: <strong>Café São Braz, Frisabor e Seu Boteco.</strong></p>
+                </div>
+
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer>    
+        <section class="section_footer">
+
+            <div class="box">
+                <h2>Início</h2>
+                <ul >
+                    <li><a target= "_blank" title="Home" href="index.html">Home</a></li>
+                    <li><a target= "_blank" title="Viagens" href="em_construcao.html">Viagens</a></li>
+                    <li><a target= "_blank" title="Pontos Turísticos" href="em_construcao.html">Pontos Turísticos</a></li>
+                    <li><a target= "_blank" title="Mais" href="em_construcao.html">Mais</a></li>
+                </ul>
+            </div>
+           
+            <div class="box">
+                <h2>Destinos</h2>
+                <ul >
+                    <li><a target= "_blank" title="Brasil" href="em_construcao.html">Brasil</a></li>
+                    <li><a target= "_blank" title="Américas" href="em_construcao.html">Américas</a></li>
+                    <li><a target= "_blank" title="Europa" href="em_construcao.html">Europa</a></li>
+                    <li><a target= "_blank" title="Mais" href="em_construcao.html">Mais</a></li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h2>SOBRE O BLOG</h2>
+                <ul>
+                    <li><a target= "_blank" title="Quem Somos" href="em_construcao.html">Quem Somos</a></li>
+                    <li><a target= "_blank" title="Termos de Uso" href="em_construcao.html">Termos de Uso</a></li>
+                    <li><a target= "_blank" title="Política de Privacidade" href="em_construcao.html">Política de Privacidade</a></li>
+                    <li><a target= "_blank" title="Política de Cookies" href="em_construcao.html">Política de Cookies</a></li>
+                </ul>
+            </div>
+
+        </section>
     </footer>
+    <div class="footer">
+
+        
+        <div class="redes_sociais"> 
+
+            <div class="social">
+                <a title="Instagram" target= "_blank" href="em_construcao.html"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="social">
+                <a title="WhatsApp" target= "_blank" href="em_construcao.html"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="social"> 
+                <a title="Twitter" target= "_blank" href="em_construcao.html"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>
